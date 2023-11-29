@@ -1,3 +1,69 @@
-body {
-  color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.topnavigation {
+  display: flex;
+  /* margin-top: 0.5rem; */
+
+  background: hsl(206, 8%, 17%);
+
+  position: relative;
+}
+.dropdown {
+  margin: 1rem;
+  padding: 10px 18px;
+  background-color: black;
+  color: white;
+}
+.Powertext {
+  margin: 1rem;
+  padding: 15px 32px;
+  color: hsl(25, 93%, 48%);
+  font-family: Gotham Narrow SSm A, Arial, Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 1rem;
+  line-height: 1.42857143;
+}
+.search-container {
+  margin: 1rem;
+  padding: 15px 35px;
+}
+input[type="text"] {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.Kundservice {
+  margin: 1rem;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: black;
+}
+.text-varuhus {
+  margin: 1rem;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+}
+.Heart {
+  margin: 1rem;
+  padding: 15px 32px;
+  background-color: black;
+  color: white;
+}
+.varukorg {
+  margin: 1rem;
+  padding: 10px 20px;
+  background-color: hsl(25, 93%, 48%);
+  color: white;
+}
+.Mypower {
+  margin: 1rem;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
 }
